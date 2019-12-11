@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CU-IEP 铝合金复合板检测服务</title>
+ <meta charset="UTF-8">
+ <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+ <link rel="stylesheet" href="css/base.css">
+ <link rel="stylesheet" href="css/Almv2.css">
+ <link rel="stylesheet" href="css/swiper.min.css">
+ <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+ <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+ <div class="top-box">
+  <img class="huxideng" src="./img/top-bg-light.png">
+  <img src="./img/bt.png">
+  <p id="date"></p>
+  <p id="time"></p>
+ </div>
+ <div class="left-box">
+  <div class="jiaobiao">
+   <img src="./img2/left-top.png">
+   <img src="./img2/left-bottom.png">
+   <img src="./img2/right-top.png">
+   <img src="./img2/right-bottom.png">
+  </div>
+  <div class="big-title">
+   <p>今日检测汇总记录</p>
+  </div>
+  <ul>
+   <li>
+    <div id="norm">
+     <span id="name0">良品</span>
+     <span id="count0">12345次</span>
+     <span id="rate0">90%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect1">
+     <span id="name1">成型失败</span>
+     <span id="count1">12次</span>
+     <span id="rate1">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect2">
+     <span id="name2">无法识别</span>
+     <span id="count2">12次</span>
+     <span id="rate2">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect3">
+     <span id="name3">弯曲</span>
+     <span id="count3">12次</span>
+     <span id="rate3">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect4">
+     <span id="name4">划痕</span>
+     <span id="count4">12次</span>
+     <span id="rate4">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect5">
+     <span id="name5">划痕</span>
+     <span id="count5">12次</span>
+     <span id="rate5">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect6">
+     <span id="name6">划痕</span>
+     <span id="count6">12次</span>
+     <span id="rate6">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect7">
+     <span id="name7">划痕</span>
+     <span id="count7">12次</span>
+     <span id="rate7">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect8">
+     <span id="name8">划痕</span>
+     <span id="count8">12次</span>
+     <span id="rate8">1%</span>
+    </div>
+   </li>
+   <li>
+    <div id="defect9">
+     <span id="name9">划痕</span>
+     <span id="count9">12次</span>
+     <span id="rate9">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect10">
+     <span id="name10">划痕</span>
+     <span id="count10">12次</span>
+     <span id="rate10">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect11">
+     <span id="name11">划痕</span>
+     <span id="count11">12次</span>
+     <span id="rate11">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect12">
+     <span id="name12">划痕</span>
+     <span id="count12">12次</span>
+     <span id="rate12">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect13">
+     <span id="name13">划痕</span>
+     <span id="count13">12次</span>
+     <span id="rate13">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect14">
+     <span id="name14">划痕</span>
+     <span id="count14">12次</span>
+     <span id="rate14">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect15">
+     <span id="name15">划痕</span>
+     <span id="count15">12次</span>
+     <span id="rate15">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect16">
+     <span id="name16">划痕</span>
+     <span id="count16">12次</span>
+     <span id="rate16">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect17">
+     <span id="name17">划痕</span>
+     <span id="count17">12次</span>
+     <span id="rate17">1%</span>
+    </div>
+   </li>
+   <li style="display:none">
+    <div id="defect18">
+     <span id="name18">划痕</span>
+     <span id="count18">12次</span>
+     <span id="rate18">1%</span>
+    </div>
+   </li>
+  </ul>
+ </div>
+ <div class="center-box">
+  <div class="jiaobiao">
+   <img src="./img2/left-top.png">
+   <img src="./img2/left-bottom.png">
+   <img src="./img2/right-top.png">
+   <img src="./img2/right-bottom.png">
+  </div>
+  <div class="center-box-title">
+   <ul>
+    <li></li>
+    <li>
+     <p>当前缺陷产品</p>
+     <img class="img_1" src="./img2/left-air.png">
+     <img class="img_2" src="./img2/right-air.png">
+    </li>
+    <li></li>
+    <li></li>
+    <li>
+     <img class="img_2" src="./img2/dian.png">
+     <img class="img_2" src="./img2/dian.png">
+     <img class="img_2" src="./img2/dian.png">
+     <img class="img_2" src="./img2/dian.png">
+    </li>
+   </ul>
+   <img class="line-title" src="./img2/line-title.png">
+  </div>
+  <ul class="four-box">
+   <li>
+    <p>铝材编号</p>
+    <p id="alCode"></p>
+   </li>
+   <li>
+    <p>生产时间</p>
+    <p id="proDate"></p>
+   </li>
+   <li>
+    <p>边缘车间</p>
+    <p id="facCode"></p>
+   </li>
+   <li>
+    <p>问题特征</p>
+    <p id="defectName"></p>
+   </li>
+  </ul>
+  <ul class="banner">
+   <li></li>
+   <li class="pic">
+    <img src="./img2/zhezhao-top.png" style="position:absolute;z-index:99;width:100%">
+    <div id="pic0">
+     <img src="./img/pro.png">
+    </div>
+   </li>
+   <li class="build">
+    <img src="./img2/build.png">
+    <img class="guangshu"  src="./img2/big-guangshu.png">
+    <img class="guang" src="./img2/guang.png">
+   </li>
+  </ul>
+ </div>
+ <div class="right-box">
+  <div class="jiaobiao">
+   <img src="./img2/left-top.png">
+   <img src="./img2/left-bottom.png">
+   <img src="./img2/right-top.png">
+   <img src="./img2/right-bottom.png">
+  </div>
+  <div class="big-title">
+   <p>缺陷产品历史记录</p>
+  </div>
+  <table class="table table-bordered" id="defectTable">
+   <thead>
+    <tr>
+     <th>铝材编号</th>
+     <th>生产时间</th> 
+     <th>边缘车间</th>
+     <th>问题特征</th> 
+     <th>样品快照</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td>ID:007</td>
+     <td>14:44:47</td> 
+     <td>E01</td>
+     <td>划痕</td> 
+     <td><img src="./img/pro.png"></td>
+    </tr>
+    <tr>
+     <td>ID:007</td>
+     <td>14:44:47</td> 
+     <td>E01</th>
+     <td>划痕</th> 
+     <td><img src="./img/pro.png"></td>
+    </tr>
+    <tr>
+     <td>ID:007</td>
+     <td>14:44:47</td> 
+     <td>E01</td>
+     <td>划痕</td> 
+     <td><img src="./img/pro.png"></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</body>
+<script type="text/javascript">
+ function toPercent(num){
+     if (num==0) {
+         return 0;
+     }
+     var str=Number(num*100).toFixed(2);
+     str+="%";
+     return str;
+ }
+ $(function(){
+  $.ajax({
+   type : 'POST',
+   url : 'aimv/getCheckStats',
+   success : function(data){
+    var norm = data.result.norm;
+    var defect1 = data.result.defect1;
+    var defect2 = data.result.defect2;
+    var defect3 = data.result.defect3;
+    var defect4 = data.result.defect4;
+    var defect5 = data.result.defect5;
+    var defect6 = data.result.defect6;
+    var defect7 = data.result.defect7;
+    var defect8 = data.result.defect8;
+    var defect9 = data.result.defect9;
+    var defect10 = data.result.defect10;
+    var defect11 = data.result.defect11;
+    var defect12 = data.result.defect12;
+    var defect13 = data.result.defect13;
+    var defect14 = data.result.defect14;
+    var defect15 = data.result.defect15;
+    var defect16 = data.result.defect16;
+    var defect17 = data.result.defect17;
+    var defect18 = data.result.defect18;
+    $("#name0").html(norm.checkResultName);
+    $("#count0").html(norm.count);
+    $("#rate0").html(toPercent(norm.rate));
+    $("#name1").html(defect1.checkResultName);
+    $("#count1").html(defect1.count);
+    $("#rate1").html(toPercent(defect1.rate));
+    $("#name2").html(defect2.checkResultName);
+    $("#count2").html(defect2.count);
+    $("#rate2").html(toPercent(defect2.rate));
+    $("#name3").html(defect3.checkResultName);
+    $("#count3").html(defect3.count);
+    $("#rate3").html(toPercent(defect3.rate));
+    $("#name4").html(defect4.checkResultName);
+    $("#count4").html(defect4.count);
+    $("#rate4").html(toPercent(defect4.rate));
+    $("#name5").html(defect5.checkResultName);
+    $("#count5").html(defect5.count);
+    $("#rate5").html(toPercent(defect5.rate));
+    $("#name6").html(defect6.checkResultName);
+    $("#count6").html(defect6.count);
+    $("#rate6").html(toPercent(defect6.rate));
+    $("#name7").html(defect7.checkResultName);
+    $("#count7").html(defect7.count);
+    $("#rate7").html(toPercent(defect7.rate));
+    $("#name8").html(defect8.checkResultName);
+    $("#count8").html(defect8.count);
+    $("#rate8").html(toPercent(defect8.rate));
+    $("#name9").html(defect9.checkResultName);
+    $("#count9").html(defect9.count);
+    $("#rate9").html(toPercent(defect9.rate));
+    $("#name10").html(defect10.checkResultName);
+    $("#count10").html(defect10.count);
+    $("#rate10").html(toPercent(defect10.rate));
+    $("#name11").html(defect11.checkResultName);
+    $("#count11").html(defect11.count);
+    $("#rate11").html(toPercent(defect11.rate));
+    $("#name12").html(defect12.checkResultName);
+    $("#count12").html(defect12.count);
+    $("#rate12").html(toPercent(defect12.rate));
+    $("#name13").html(defect13.checkResultName);
+    $("#count13").html(defect13.count);
+    $("#rate13").html(toPercent(defect13.rate));
+    $("#name14").html(defect14.checkResultName);
+    $("#count14").html(defect14.count);
+    $("#rate14").html(toPercent(defect14.rate));
+    $("#name15").html(defect15.checkResultName);
+    $("#count15").html(defect15.count);
+    $("#rate15").html(toPercent(defect15.rate));
+    $("#name16").html(defect16.checkResultName);
+    $("#count16").html(defect16.count);
+    $("#rate16").html(toPercent(defect16.rate));
+    $("#name17").html(defect17.checkResultName);
+    $("#count17").html(defect17.count);
+    $("#rate17").html(toPercent(defect17.rate));
+    $("#name18").html(defect18.checkResultName);
+    $("#count18").html(defect18.count);
+    $("#rate18").html(toPercent(defect18.rate));
+   },
+   error : function(errorMsg){
+    alert(errorMsg.msg);
+   }
+  });
+  $.ajax({
+   type : 'POST',
+   url : 'aimv/getDefectReport',
+   success : function(data){
+    var list = data.result;
+    $("#alCode").html(list[0].id);
+    $("#proDate").html(list[0].checkTime);
+    $("#facCode").html(list[0].factoryID);
+    $("#defectName").html(list[0].checkResultName);
+    
+    $("#defectTable tbody").html("")
+    var row = "";
+    for(var i=1; i<list.length; i++){
+     row += "<tr><td>"+list[i].id+"</td><td>"
+     +list[i].checkTime+"</td><td>"+list[i].factoryID+"</td><td>"
+     +list[i].checkResultName+"</td><td><img src=\"./img/pro.png\"></td>";
+    }
+    $("#defectTable tbody").append(row);
+   },
+   error : function(errorMsg){
+    alert(errorMsg.msg);
+   }
+  });
+ });
+</script>
+<script type="text/javascript">
+ var setDateAndTime=setInterval("getNowFormatDate()", 1000);
+ function getNowFormatDate() {
+     var date = new Date();
+     var seperator1 = "-";
+     var seperator2 = ":";
+     var month = date.getMonth() + 1;
+     var strDate = date.getDate();
+     var strHour = date.getHours();
+     var strMinute = date.getMinutes();
+     var strSecond = date.getSeconds();
+     if (month >= 1 && month <= 9) {
+         month = "0" + month;
+     }
+     if (strDate >= 0 && strDate <= 9) {
+         strDate = "0" + strDate;
+     }
+     if (strHour >= 1 && strHour <= 9) {
+      strHour = "0" + strHour;
+     }
+     if (strMinute >= 0 && strMinute <= 9) {
+      strMinute = "0" + strMinute;
+     }
+     if (strSecond >= 0 && strSecond <= 9) {
+      strSecond = "0" + strSecond;
+     }
+     var currentDate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+     var currentTime = strHour + seperator2 + strMinute + seperator2 + strSecond;
+     document.getElementById("date").innerHTML=currentDate;
+     document.getElementById("time").innerHTML=currentTime;
+ }
+</script>
+</html>
